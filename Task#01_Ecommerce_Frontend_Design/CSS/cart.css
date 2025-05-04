@@ -1,0 +1,345 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(252, 252, 252);
+}
+
+h3 {
+    margin: 20px 0 0 80px;
+}
+
+.cart-left .divide {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 20px 0 20px;
+}
+
+.cart {
+    width: 1200p;
+    display: flex;
+}
+
+.cart .cart-left {
+    width: 900px;
+    margin: 20px 0 0 80px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.cart-left .cart-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px 5px 20px 5px;
+}
+
+.cart-items img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-items .item-details p {
+    font-weight: bold;
+}
+
+.cart-items .item-details span {
+    color: gray;
+}
+
+.cart-btn .remove {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.cart-btn .remove:hover {
+    color: rgb(204, 2, 2);
+}
+
+.cart-btn .save {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.cart-btn .save:hover {
+    color: rgb(0, 0, 172);
+}
+
+.cart-items .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.price p {
+    font-weight: bold;
+    margin: 0 0 10px 200px;
+}
+
+.price select {
+    margin: 0 0 26px 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+}
+.cart-left .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.btn .shop {
+    background-color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
+.btn .shop:hover {
+    background-color: #004bff;
+}
+.btn .remove {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: blue;
+}
+.btn .remove:hover {
+    color: #009bff;
+}
+
+/* aplly coupon section starts here  */
+
+
+.checkout .coupon {
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 260px;
+}
+.coupon p {
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+.coupon span {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    color: #ccc;
+}
+.coupon button {
+    border-left: 1px solid #ccc;
+    border-right: 1px transparent;
+    border-bottom: 1px transparent;
+    border-top: 1px transparent;
+    background-color: white;
+    font-size: 1rem;
+    margin: 0 0 10px 20px;
+    color: blue;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+}
+.coupon button:hover {
+    color: rgb(2, 2, 172);
+}
+
+
+/* bank sections strts here  */
+
+
+.pay {
+    background-color: white;
+    border: 1px transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 20px;
+    width: 260px;
+    padding: 20px;
+}
+.pay .payment {
+    display: flex;
+    justify-content: space-between;
+}
+.payment .pricing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.payment .amount {
+    display: flex;
+    flex-direction: column;
+}
+.amount .dis {
+    color: red;
+}
+.amount .tax {
+    color: rgb(1, 187, 1);
+}
+.pay .total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.pay .divide {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+.pay button {
+    background-color: rgb(1, 187, 1);
+    border: 1px transparent;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;   
+    padding: 10px 30px 10px 30px;
+    color: white;
+    width: 220px;
+    cursor: pointer;
+}
+.pay button:hover {
+    background-color: rgb(0, 153, 0);
+}
+.pay .bank {
+    display: flex;
+    justify-content: space-around;
+}
+.pay .bank img {
+    width: 25px;
+    height: 25px;
+}
+
+/* customer support section starts here  */
+
+
+.support {
+    margin: 20px 0 0 80px;
+    display: flex;
+}
+.support .secure,
+.support .customer,
+.support .delivery {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+.support .secure i,
+.support .customer i,
+.support .delivery i {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 15px;
+    color: gray;
+    margin-right: 5px;
+}
+.support .secure span,
+.support .customer span,
+.support .delivery span {
+    color: #ccc;
+    margin-top: 0;
+}
+
+
+/* saved products section starts here  */
+
+
+.saved .saved-products {
+    max-width: 1200px;
+    margin: 20px 0 0 80px;
+    background-color: white;
+    border: 1px transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+.saved-products .saved-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0 20px 10px;
+}
+.saved-items img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.saved-items .saved-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.saved-text p {
+    font-weight: bold;
+}
+.saved-text button {
+    background-color: white;
+    border: 1px solid #eee;
+    color: #007bff;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+.saved-text button:hover {
+    color: #111bbf;
+}
+
+/* discount section starts here  */
+
+.discount-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 20px 0 20px 80px;
+    background: linear-gradient(to left, rgba(0, 58, 119, 0.8), rgb(0, 123, 255));
+    border: 1px transparent;
+    border-radius: 5px;
+  }
+  .discount-sec .offers {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .offers p {
+    font-weight: bold;
+    color: white;
+    font-size: 1.3rem;
+  }
+  .offers span {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .discount-sec button {
+    cursor: pointer;
+    background-color: #ff9017;
+    padding: 10px 20px 10px 20px;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  .discount-sec button:hover {
+    background-color: #ff7017;
+  }
